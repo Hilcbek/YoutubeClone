@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react'
 import {categories} from '../utils/constants'
 export const SideBar = ({setSelectedCatagory}) => {
   return (
