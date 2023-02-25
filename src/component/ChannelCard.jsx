@@ -1,7 +1,5 @@
 import React from 'react'
-import { FaCheckCircle } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import { demoVideoUrl,demoVideoTitle,demoThumbnailUrl,demoProfilePicture, demoChannelUrl } from '../utils/constants'
 export const ChannelCard = ({channel}) => {
   return (
     <div className='sm:w-[300px] sm:h-[350px] md:w-[350px] md:h-[360px]  bg-slate-800 rounded-md hover:shadow-md hover:shadow-slate-700 cursor-pointer my-3 flex items-start justify-start flex-col'>
