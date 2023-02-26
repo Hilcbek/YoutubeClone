@@ -10,4 +10,4 @@ const options = {
 	let response =  await fetch(url, options)
 	let res = await response.json()
 	 return res
-  }		
+  }

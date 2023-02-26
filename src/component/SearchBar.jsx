@@ -8,7 +8,6 @@ export const SearchBar = () => {
     e.preventDefault()
       navigator(`/search/${search}`)
       setSearch('')
-      console.log('hello')
     }
   return (
     <div className={'w-full md:w-auto mr-3'}>
