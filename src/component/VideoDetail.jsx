@@ -38,7 +38,7 @@ export const VideoDetail = () => {
             </div>
           </div>
         </div>
-        <Videos one={'ml-3 -mt-2 md:grid-cols-1 md:grid-cols-2 max-h-screen overflow-y-scroll'} videos={video} />
+        <Videos videos={video} one={'ml-3 -mt-2 md:grid-cols-1 md:grid-cols-2 max-h-screen overflow-y-scroll'} />
     </div>
   )
 }
